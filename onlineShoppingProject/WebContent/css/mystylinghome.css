@@ -33,6 +33,14 @@ table tr {
   border: 1px solid #ddd;
   padding: .35em;
 }
+.footer-iconTop a i {
+    font-size: 2.4rem;
+    color: var(--bg-color);
+}
+
+.footer-iconTop a:hover i{
+    color: var(--main-color)
+}
 
 table th,
 table td {
