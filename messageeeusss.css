@@ -39,6 +39,8 @@
   .button:hover {
     background-color: #555555;
     color: white;
+    z-index: 1;
+    overflow: hidden;
   }
   
   hr
