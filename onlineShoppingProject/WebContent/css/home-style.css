@@ -29,7 +29,7 @@ table caption {
 }
 
 table tr {
-  background-color: #f8f8f8;
+  background-color: #0080FF;
   border: 1px solid #ddd;
   padding: .35em;
 }
@@ -41,7 +41,7 @@ table td {
 }
 
 table th {
-  font-size: .85em;
+  font-size: .90em;
   letter-spacing: .1em;
   text-transform: uppercase;
 }
