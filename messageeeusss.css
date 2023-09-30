@@ -1,10 +1,10 @@
 .input-style {
-    width: 60%;
-    padding: 16px 20px;
+    width: 67%;
+    padding: 18px 32px;
     margin-left:20%;
     box-sizing: border-box;
     border: none;
-    background-color:red;
+    background-color:yellowgreen;
     color: black;
     font-size: 16px;
   }
@@ -16,7 +16,7 @@
   
   textarea
   {
-      height: 250px;
+      height: 264px;
       font-size: 17px;
   }
   
@@ -37,13 +37,13 @@
   }
   
   .button:hover {
-    background-color: #FF0000;
+    background-color: #555555;
     color: white;
   }
   
   hr
   {
-      width: 60%
+      width: 69%
   }
   
   h3
