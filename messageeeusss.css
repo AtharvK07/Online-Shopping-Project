@@ -53,4 +53,11 @@
       text-align: center;
       color: white;
   }
-  
+  .contact{
+    min-height: auto;
+    padding-bottom: 7rem;
+}
+
+.contact .heading{
+    padding-bottom: 2rem;
+}
