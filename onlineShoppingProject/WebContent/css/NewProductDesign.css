@@ -13,6 +13,9 @@ a {
   position: sticky;
   top: 0;
 }
+.footer-text p{
+    font-size: 1.6rem;
+}
 
 table {
   border: 1px solid #ccc;
