@@ -4,7 +4,7 @@
     margin-left:20%;
     box-sizing: border-box;
     border: none;
-    background-color:yellowgreen;
+    background-color:red;
     color: black;
     font-size: 16px;
   }
@@ -37,7 +37,7 @@
   }
   
   .button:hover {
-    background-color: #555555;
+    background-color: #FF0000;
     color: white;
   }
   
