@@ -1,3 +1,3 @@
  <div class="footer">
-          <p>All Right Reserved @ Mr SK</p>
+          <p>All Right Reserved @ Mr SD</p>
       </div>
