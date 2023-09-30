@@ -1,0 +1,114 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.25;
+  background-color: #f5ce64;
+}
+
+/* Footer */
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #ccc;
+  color: black;
+  text-align: center;
+}
+
+/* Common input styles */
+.input-style {
+  width: 90%;
+  padding: 12px 20px;
+  margin-left: 5%;
+  box-sizing: border-box;
+  border: none;
+  background-color: white;
+  color: black;
+  font-size: 16px;
+  outline: 4px solid orange;
+  background-color: rgb(224, 255, 219);
+  border-radius: 25px;
+}
+
+/* Button styles */
+.button {
+  background-color: aqua;
+  border: none;
+  color: black;
+  padding: 12px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  font-size: 16px;
+  width: 40%;
+  border-radius: 25px;
+}
+
+.button:hover {
+  background-color: pink;
+  color: black;
+}
+
+/* Centered heading */
+h3 {
+  text-align: center;
+  color: black;
+}
+
+/* Alert class */
+.alert {
+  color: yellow;
+}
+
+/* Dotted border */
+.profile-style {
+  border-style: dotted;
+}
+
+/* Two-column layout */
+.left-button,
+.right-button {
+  width: 48%;
+  display: inline-block;
+}
+
+/* Three-column layout */
+.left-div,
+.right-div,
+.right-div-right {
+  width: 33.33%;
+  display: inline-block;
+}
+
+/* Table styles */
+#customers {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td,
+#customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#customers tr:hover {
+  background-color: #ddd;
+}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: white;
+  color: black;
+}
