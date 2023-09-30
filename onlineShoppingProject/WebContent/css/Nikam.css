@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+body {
+  font-family: 'Playfair Display', serif;
+  line-height: 1.25;
+  background-color: #f5ce64;
+}
+
+/*footer*/
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color:#ccc;
+   color:black;
+   text-align: center;
+}
+
+
+
+
+
+.input-style {
+  width: 90%;
+  padding: 12px 20px;
+  margin-left:5%;
+  box-sizing: border-box;
+  border: none;
+  background-color:white;
+  color: black;
+  font-size: 16px;
+}
+
+input[type=text]:focus, textarea:focus,button:focus{
+  outline: 4px solid orange;
+  background-color:rgb(224, 255, 219);     /* oranges! yey */
+}
+
+.button {
+  background-color: aqua;
+  border: none;
+  color: black;
+  padding: 12px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  font-size: 16px;
+  width: 40%;
+   border-radius: 25px;
+}
+
+.button:hover {
+  background-color: pink;
+  color: black;
+}
+
+hr
+{
+	width: 100%
+}
+h3
+{
+	text-align: center;
+	color: black;
+}
+.alert
+{
+	color:red;
+}
+
+.profile-style
+{
+	border-style: dotted;
+	
+}
+
+.left-button
+{
+	width: 50%;
+	display:inline-block;
+}
+
+.right-button
+{
+	float:right;
+	width: 50%;
+	display:inline-block;
+}
+
+.left-div
+{
+	width: 33.33%;
+	display:inline-block;
+}
+
+.right-div
+{
+	float:right;
+	width: 33.33%;
+	display:inline-block;
+}
+.right-div-right
+{
+	float:right;
+	width: 33.33%;
+	display:inline-block;
+}
+#customers {
+  font-family: 'Roboto Condensed', sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  border: 2px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 11px;
+  padding-bottom: 11px;
+  text-align: left;
+  background-color: white;
+  color: light grey;
+}
