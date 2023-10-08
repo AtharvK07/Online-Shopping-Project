@@ -11,7 +11,7 @@
 <style>
 h3
 {
-	color: yellow;
+	color: blue;
 	text-align: center;
 }
 </style>
