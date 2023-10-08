@@ -1,0 +1,63 @@
+.input-style {
+    width: 67%;
+    padding: 18px 32px;
+    margin-left:20%;
+    box-sizing: border-box;
+    border: none;
+    background-color:yellowgreen;
+    color: black;
+    font-size: 16px;
+  }
+  
+  input[type=text]:focus, textarea:focus,button:focus{
+    outline: 4px solid orange;
+    background-color:rgb(224, 255, 219);     /* oranges! yey */
+  }
+  
+  textarea
+  {
+      height: 264px;
+      font-size: 17px;
+  }
+  
+  .button {
+    background-color: white; /* Green */
+    border: none;
+    color: black;
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin-left:20%;
+    font-size: 19px;
+  }
+  
+  .button:hover {
+    background-color: #555555;
+    color: white;
+    z-index: 1;
+    overflow: hidden;
+  }
+  
+  hr
+  {
+      width: 69%
+  }
+  
+  h3
+  {
+      text-align: center;
+      color: white;
+  }
+  .contact{
+    min-height: auto;
+    padding-bottom: 7rem;
+}
+
+.contact .heading{
+    padding-bottom: 2rem;
+}

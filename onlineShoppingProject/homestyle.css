@@ -1,0 +1,179 @@
+/* Reset some default styles and apply a new font family */
+body {
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.8; /* Increased line height for better readability */
+  background-color: #a2b9bc;
+  margin: 0; /* Reset default margin */
+}
+
+/* Remove underline from links */
+a {
+  text-decoration: none;
+}
+
+/* Sticky header */
+.sticky {
+  position: sticky;
+  top: 10;
+  background-color: #e9e9e9; /* Change sticky header background color */
+  z-index: 100; /* Add z-index to make it appear on top */
+}
+
+/* Table styles */
+table {
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table caption {
+  font-size: 1.2em; /* Increase font size for table captions */
+  margin: 0.5em 0 0.75em;
+}
+
+table tr {
+  background-color: #0080FF;
+  border: 1px solid #ddd;
+}
+
+table th,
+table td {
+  padding: 10px; /* Adjust cell padding for better spacing */
+  text-align: Right;
+}
+
+table th {
+  font-size: 0.9em;
+  text-transform: uppercase;
+  background-color: #e9e9e9; /* Add a background color to table headers */
+  color: #333; /* Change text color for table headers */
+}
+
+/* Responsive table styles for small screens */
+@media screen and (max-width: 600px) {
+  table {
+    border: none;
+    border-collapse: separate;
+    width: 100%;
+    margin: 0;
+  }
+
+  table caption {
+    font-size: 1.2em;
+  }
+
+  table thead {
+    display: none; /* Hide table header on small screens */
+  }
+
+  table tr {
+    border-bottom: 3px solid #ddd;
+    display: block;
+    margin-bottom: 10px; /* Increase margin for better separation */
+    background-color: #fff; /* Change background color for table rows */
+  }
+
+  table td {
+    border-bottom: 1px solid #ddd;
+    display: block;
+    text-align: left; /* Adjust text alignment for small screens */
+    font-size: 0.9em;
+    padding-left: 15px; /* Add padding to the left for better spacing */
+  }
+
+  table td::before {
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  table td:last-child {
+    border-bottom: 0;
+  }
+}
+
+/* Header styles */
+.topnav {
+  overflow: hidden;
+  background-color: #e9e9e9;
+  padding: 10px 0; /* Add padding for better spacing */
+}
+
+.topnav a {
+  float: left;
+  color: #333;
+  text-align: center;
+  padding: 10px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: #333;
+}
+
+.topnav a.active {
+  background-color: #2196F3;
+  color: white;
+}
+
+.topnav .search-container {
+  float: right;
+}
+
+.topnav input[type="text"] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+  border-radius: 5px; /* Add rounded corners to the input */
+}
+
+.topnav .search-container button {
+  float: right;
+  padding: 7px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px; /* Add rounded corners to the button */
+}
+
+.topnav .search-container button:hover {
+  background: #ccc;
+}
+
+/* Footer styles */
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #ccc;
+  color: black;
+  text-align: center;
+  padding: 10px 0; /* Add padding for better spacing */
+}
+
+/* Additional button style for a class with "h2222" */
+.h2222 {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  background-color: #3CBC8D;
+  color: white;
+  text-align: center; /* Center text */
+  cursor: pointer;
+  border-radius: 5px; /* Add rounded corners to the button */
+}
+
+/* Add hover effect to the button */
+.h2222:hover {
+  background-color: #37AC75;
+}

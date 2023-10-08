@@ -1,7 +1,7 @@
     body {
   font-family: "Open Sans", sans-serif;
   line-height: 1.25;
-  background-color: #0080FF;
+  background-color: #a2b9bc;
 }
 a
 {
@@ -29,7 +29,7 @@ table caption {
 }
 
 table tr {
-  background-color: #f8f8f8;
+  background-color: #0080FF;
   border: 1px solid #ddd;
   padding: .35em;
 }
@@ -41,7 +41,7 @@ table td {
 }
 
 table th {
-  font-size: .85em;
+  font-size: .90em;
   letter-spacing: .1em;
   text-transform: uppercase;
 }
